@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/budget.css">
+    
+    <title>Budget Tracker</title>
+    
+</head>
+<body>
+    <center>
+          <section class="money-budget">
+        <h1 class="btn11">Budget Tracker</h1>
+                <!-- Add description of transaction -->
+                <div class="add-description"></div>
+                    <input type="text" id="descriptionInput" placeholder="Enter Transaction Description">
+                </div>
+                <br><br>
+
+                <!-- Add transaction amount positive for income negative for expenses  -->
+                <div class="add-amount">
+                    <input type="number" id="amountInput" placeholder="Enter Amount">
+                </div>
+                <br><br>
+
+                <button class="btn" id="addTransactionBtn">Add Transaction</button>
+
+       <!-- Transaction List -->
+        <h4 class="list">Transaction List</h4>
+        <div id="transactionList" class="transaction-list"></div>
+
+        <!-- Summary Breakdown -->
+        <h4 class="list">Summary Breakdown</h4>
+        <p class="Total">Total Income: <span id="totalIncome">0</span> </p>
+        <p class="Total">Total Expenses: <span id="totalExpenses">0</span> </p>
+        <p class="Total">Current Balance: <span id="currentBalance">0</span> </p>
+
+        <button id="clearAllBtn">Clear All</button>
+    </section>
+
+    </center>
+  
+    <script src="./js/budjet.js"></script>
+    
+</body>
+</html>

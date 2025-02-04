@@ -1,0 +1,73 @@
+body{
+    justify-items: center;
+    margin-top: 70px;
+    background-color: rgba(0, 255, 255, 0.75);
+}
+.money-budget{
+border: 1px solid;
+    margin-top: 50px;
+    
+    width: 60%;
+    height: 70%;
+    min-width: 19rem;
+    min-height: 40rem;
+    padding: 3rem;
+    border-radius: 2rem ;
+    flex-direction: column;
+    box-shadow: 0 1rem 3rem 1rem rgb(0,23,71, 0.15);
+    background-color: #ffffff;
+    border: none;
+}
+#descriptionInput{
+    font-size: 1.0rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.3rem;
+    /* position: absolute; */
+    background: #eeee;
+    border: none;
+    color: #000000;
+}
+#amountInput{
+font-size: 1.0rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.3rem;
+    /* position: absolute; */
+    background: #eeee;
+    border: none;
+    color: #000000;
+}
+#addTransactionBtn{
+    padding: 0.7rem;
+    border-radius:1rem;
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    
+}
+#addTransactionBtn:hover{
+    background-color:purple ;
+    transform: matrix(0.);
+}
+.btn11{
+    font-family: sans-serif;
+
+}
+.total{
+    font-family: sans-serif;
+}
+#ClearALLbtn{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: blue;
+    color: #ffffff;
+    border: none;    
+}
+#ClearAllbtn:hover{ 
+    background-color: purple;
+}
+.list{
+    font-family: sans-serif;
+}
+.transaction-list{
+    
+}
